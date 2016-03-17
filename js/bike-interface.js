@@ -8,7 +8,7 @@ $(document).ready(function(){
       for (var i = 0; i < response.bikes.length; i++) {
       var title = response.bikes[i].title;
       var serial = response.bikes[i].serial;
-      $('#foundBikes').append("<li>" + "The bike: " + title + " with serial number: " + serial + " has been found." + "</li>");
+      $('#foundBikes').append("<li>" + "The bike: " + title + " with  the serial number: " + serial + " has been found." + "</li>");
     };
     });
   });
