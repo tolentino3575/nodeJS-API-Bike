@@ -8,7 +8,23 @@
     <title></title>
   </head>
   <body>
-    <h3>Here was the time:</h3>
-    <h3 id="time"></h3>
+    <div class="container">
+      <h2>Find your stolen bike</h2>
+      <br>
+      <form id="stolenBikes">
+        <label for="zip">Enter your zipcode</label>
+        <input id="zip" type="number">
+        <br>
+        <br>
+        <label for="color">What is your bikes main color?</label>
+        <input id="color" type="text">
+        <br>
+        <button class="btn btn-danger">Search</button>
+      </form>
+      <br>
+      <h3>Here are 10 bikes that match your search within 10 miles:</h3>
+      <div id="foundBikes">
+      </div>
+    </div>
   </body>
 </html>
